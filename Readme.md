@@ -23,10 +23,10 @@ con autenticación de usuarios, almacenamiento en la nube y estadísticas de vis
 
 ## 🎬 Demostración en video
 
-<video src="Images/video.webm" controls width="100%"></video>
-*Demostración del funcionamiento de la aplicación*
 
-📹 [Descargar video](Images/app.mp4) *(si no se reproduce)*
+[![Ver demo](Images/thumbnail.png)](Images/video.webm)
+
+*Haz clic en la imagen para ver el video*
 
 ---
 

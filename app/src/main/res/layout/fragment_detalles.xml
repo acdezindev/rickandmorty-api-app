@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:padding="0dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp">
+
+        <!-- PRIMER CARDVIEW DE TEXTO -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/morty"
+            app:cardCornerRadius="15dp"
+            android:padding="10dp">
+
+            <!-- Contenedor LinearLayout -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="14dp">
+
+
+                <TextView
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="@string/detalle_nombre"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <!-- Contestacion Codigo -->
+                <TextView
+                    android:id="@+id/detalle_nombre_contesta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/detalle_codigo_contestacion"
+                    android:textColor="@color/rick"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/detalle_codigo"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/detalle_codigo"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                <!-- Contestacion Codigo -->
+                <TextView
+                    android:id="@+id/detalle_codigo_contestacion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:gravity="start"
+                    android:text="@string/detalle_codigo_contestacion"
+                    android:textColor="@color/rick"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </androidx.cardview.widget.CardView>
+
+
+
+    <!-- TextView que dice "LISTA DE PERSONAJES" -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="@string/lista_personajes"
+        android:textColor="@color/neon"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <!-- RECYCLERVIEW PARA LA LISTA DE PERSONAJES lo metemos en un linear -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- RecyclerView con weight 1 para ocupar espacio disponible -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewPersonajes"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:listitem="@layout/item_personaje" />
+
+        <!-- Boton se muestra debajo del recycler -->
+        <Button
+            android:id="@+id/btn_volver_detalles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:backgroundTint="@color/black"
+            android:text="@string/acerca_btn_volver"
+            android:textColor="@color/morty"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

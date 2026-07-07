@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- LO NECESITAMOS VACIO PARA USAR NUESTRO NAV_GRAPH en el MenuLateral -->
+<!-- Es decir, menu.xml y nav_graph si tenemos un menu lateral-->
+<!-- y queremos que al pulsar Ajustes nos vaya a Setting.xml necesitamos esto para la navegacion-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AjusteEnvoltorioSettingFragment">
+
+
+
+</FrameLayout>

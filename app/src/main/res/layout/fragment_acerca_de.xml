@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_marginTop="30dp">
+
+    <!-- TITULO del fragmento -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/acercade"
+        android:textSize="28sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/morty"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:padding="0dp"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp">
+
+    <!-- PRIMER CARDVIEW DE TEXTO -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/morty"
+        app:cardCornerRadius="15dp"
+        android:padding="10dp">
+
+        <!-- Contenido del CardView -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="30dp"
+            android:background="@color/morty">
+
+            <!-- TEXTVIEW PARA NOMBRE -->
+            <TextView
+                android:id="@+id/nombre_acerca_de"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/acerca_nombre"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/rick"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:padding="10dp"/>
+
+            <!-- LINEA -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="16dp"
+                android:background="@color/rick"/>
+
+            <!-- TEXTVIEW PARA LA VERSION-->
+            <TextView
+                android:id="@+id/version_acerca_de"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/acerca_version"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:gravity="center"/>
+        </LinearLayout>
+
+     </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <!-- BOTON FUERA DEL  cardview-->
+    <Button
+        android:id="@+id/btn_volver_acerca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:text="@string/acerca_btn_volver"
+        android:textSize="18dp"
+        android:textColor="@color/morty"
+        android:backgroundTint="@color/black"
+        >
+
+    </Button>
+
+</LinearLayout>

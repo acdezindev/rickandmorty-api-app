@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Aqui solo se hacen las preferencias y switch se genera automatico -->
+<!-- No se puede hacer un diseno excepto que lo envuelvas pero switch no se ven -->
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/ajustes_set"
+    android:fitsSystemWindows="true">
+
+    <!-- Tema claro / oscuro -->
+    <SwitchPreferenceCompat
+        android:key="pref_modo"
+        android:title="@string/tema"
+        android:summary="@string/preferencia_tema"
+        android:defaultValue="false" />
+
+    <!-- Idioma -->
+    <SwitchPreferenceCompat
+        android:key="pref_idioma"
+        android:title="@string/idioma"
+        android:summary="@string/preferencia_idioma"
+        android:defaultValue="false" />
+
+    <!-- Cerrar la sesion -->
+    <Preference
+        android:key="pref_logout"
+        android:title="@string/cerrar_sesion"
+        android:summary="@string/Finaliza_sesion_actual" />
+
+
+</PreferenceScreen>

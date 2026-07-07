@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- FUNDAMENTAL DECIR CUAL ES EL FRAGMENTO DE NAVEGACION!! appStartDestinattion -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listaEpisodiosFragment">
+
+    <action
+        android:id="@+id/action_listaEpisodiosFragment_to_detallesFragment"
+        app:destination="@id/detallesFragment" />
+    <fragment
+        android:id="@+id/acercaDeFragment"
+        android:name="ac.pmdm.rickandmortypf.AcercaDeFragment"
+        android:label="fragment_acerca_de"
+        tools:layout="@layout/fragment_acerca_de" />
+    <fragment
+        android:id="@+id/listaEpisodiosFragment"
+        android:name="ac.pmdm.rickandmortypf.ListaEpisodiosFragment"
+        android:label="fragment_lista_episodios"
+        tools:layout="@layout/fragment_lista_episodios" />
+    <fragment
+        android:id="@+id/detallesFragment"
+        android:name="ac.pmdm.rickandmortypf.DetallesFragment"
+        android:label="fragment_detalles"
+        tools:layout="@layout/fragment_detalles" />
+    <fragment
+        android:id="@+id/estadisticasFragment"
+        android:name="ac.pmdm.rickandmortypf.EstadisticasFragment"
+        android:label="fragment_estadisticas"
+        tools:layout="@layout/fragment_estadisticas" />
+    <fragment
+        android:id="@+id/ajusteEnvoltorioSettingFragment"
+        android:name="ac.pmdm.rickandmortypf.AjusteEnvoltorioSettingFragment"
+        android:label="fragment_ajuste_envoltorio_setting"
+     />
+</navigation>

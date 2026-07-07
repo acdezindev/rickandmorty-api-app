@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- id item debe coincidir con los id nav_graph para hacer la navegacion automatica del menu entre los fragmentos -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/listaEpisodiosFragment"
+        android:title="@string/episodios"/>
+    <item
+        android:id="@+id/estadisticasFragment"
+        android:title="@string/estadisticas"/>
+    <item
+        android:id="@+id/ajusteEnvoltorioSettingFragment"
+        android:title="@string/ajustes"/>
+    <item
+        android:id="@+id/acercaDeFragment"
+        android:title="@string/acercademenu"/>
+
+
+</menu>

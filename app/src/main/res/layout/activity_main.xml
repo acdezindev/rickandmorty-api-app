@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/black"
+android:orientation="vertical"
+android:layout_margin="10dp"
+tools:context=".MainActivity">
+
+
+<ImageView
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_marginTop="50dp"
+    android:src="@drawable/rickmorty"
+    android:layout_gravity="center"
+    android:fitsSystemWindows="true"
+    />
+
+    <!-- Primer Card: Contrasena -->
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginRight="50dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    >
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/rick"
+        android:gravity="center"
+        android:hint="@string/email"
+        android:textSize="20sp" />
+
+
+</androidx.cardview.widget.CardView>
+
+
+<!-- Segundo Card: Contrasena -->
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="50dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/morty"
+        android:gravity="center"
+        android:hint="@string/contrasena_inicio"
+        android:inputType="textPassword"
+        android:textSize="20sp" />
+
+</androidx.cardview.widget.CardView>
+
+
+
+<Button
+    android:id="@+id/btn_inicio"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center_horizontal"
+    android:text="@string/iniciar_sesion"
+    android:textSize="18dp"
+    android:textColor="@color/rick"
+    android:backgroundTint="@color/white"
+    />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/rymfluor"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+<Button
+    android:id="@+id/btn_registrarse"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_gravity="center_horizontal"
+    android:text="@string/registrarse"
+    android:textSize="18dp"
+    android:textColor="@color/black"
+    android:backgroundTint="@color/neon"
+    />
+
+
+</LinearLayout>

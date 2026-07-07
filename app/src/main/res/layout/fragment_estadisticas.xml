@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_marginTop="30dp"
+   >
+
+    <!-- Titulo -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Estadisticas"
+        android:textSize="28sp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/morty"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/morty"
+            android:padding="24dp">
+
+            <!-- Total episodios -->
+            <TextView
+                android:id="@+id/tvTotalEpisodios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_episodios"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Porcentaje -->
+            <TextView
+                android:id="@+id/tvEpisodiosVistos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/episodios_vistos"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <!-- ProgressBar circular ( junto a crear un drawable grafica_circular.xml stats... -->
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_gravity="center_horizontal"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:max="100"
+                android:progress="0"
+                android:progressDrawable="@drawable/grafica_circular"/>
+
+            <TextView
+                android:id="@+id/tvPorcentaje"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/completado"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/rick"
+                android:layout_marginBottom="24dp"/>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Tema base -->
+    <style name="Base.Theme.T3RickMorty" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Cambia el color del fondo del them-->
+        <item name="android:colorBackground">@color/rick</item>
+        <!-- Fondo de superficies como CardView -->
+        <item name="colorSurface">@color/rick</item>
+        <!-- color de la barra de estado ( NO ME FUNCIONA )-->
+        <item name="android:statusBarColor">@color/neon</item>
+    </style>
+
+    <!-- Tema para las preferencias -->
+    <style name="PreferenceTheme.T3RickMorty" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Color de fondo de las preferencias -->
+        <item name="android:colorBackground">@color/black</item>
+        <item name="colorSurface">@color/black</item>
+
+        <!-- Colores de texto -->
+        <item name="android:textColorPrimary">@color/neon</item>
+        <item name="android:textColorSecondary">@color/white</item>
+
+        <!-- Color del switch -->
+        <item name="colorControlActivated">@color/rick</item>
+        <item name="colorControlNormal">@color/morty</item>
+
+        <!-- Color del icono -->
+        <item name="colorAccent">@color/neon</item>
+    </style>
+
+    <!-- ESTILO PARA toda la app ( hijo de tema base)-->
+    <style name="Theme.T3RickMorty" parent="Base.Theme.T3RickMorty" />
+</resources>

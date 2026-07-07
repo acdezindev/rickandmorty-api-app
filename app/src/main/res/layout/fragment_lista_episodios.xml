@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Es el fragmento que va dentro del "Marco" de la Activity el fragmento Home -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ListaEpisodiosFragment">
+
+
+    <!-- FILTRO DE EPISODIOS -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <!-- BOTON TODOS -->
+        <Button
+            android:id="@+id/btnTodos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="14dp"
+            android:text="@string/todos"
+            android:textSize="20dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/morty" />
+
+        <!-- BOTON VISTOS -->
+        <Button
+            android:id="@+id/btnVistos"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/vistos"
+            android:textSize="20dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/morty" />
+
+
+
+    </LinearLayout>
+
+    <!-- RecyclerView -->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_Episodes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"/>
+
+</LinearLayout>

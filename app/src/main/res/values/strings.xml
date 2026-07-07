@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Rick and Morty Api Retrofit</string>
+    <string name="email">Email</string>
+    <string name="reg_nombre">Nombre</string>
+    <string name="reg_email">Email</string>
+    <string name="reg_contrasena">Contraseña</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="registrarse">Registrarse</string>
+
+    <string name="acercade"> ACERCA DE </string>
+    <string name="detalles"> Detalles </string>
+    <string name="nombre_del_episodio">Nombre del episodio</string>
+    <string name="s01e01">S01E01</string>
+    <string name="december_2_2013">December 2, 2013</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tema">Tema</string>
+    <string name="cerrar_sesion">Cerrar Sesion\n</string>
+    <string name="idioma">Idioma\n</string>
+    <string name="Finaliza_sesion_actual">Finaliza la sesion actual\n</string>
+    <string name="preferencia_idioma">Selecciona la preferencia de idioma\n</string>
+    <string name="preferencia_tema">Selecciona la preferencia del tema</string>
+    <string name="boton_registrarse">Registrarse</string>
+    <string name="boton_volver">Volver</string>
+    <string name="acerca_nombre">Abraham C.</string>
+    <string name="acerca_version">Versión 1.0.0</string>
+    <string name="acerca_btn_volver">VOLVER</string>
+    <string name="item_nombre_episodio">Nombre del episodio</string>
+    <string name="item_fecha">Fecha</string>
+    <string name="email_inicio">Email</string>
+    <string name="contrasena_inicio">Contrasena</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="episodios">Episodios</string>
+    <string name="estadisticas">Estadisticas</string>
+    <string name="acercademenu">Acerca de</string>
+    <string name="item_episodio">Episodio</string>
+    <string name="ajustes_set">Ajustes</string>
+    <string name="detalle_nombre">Nombre\n</string>
+    <string name="detalle_nombre_contesta">Contestacion nombre\n</string>
+    <string name="detalle_codigo">Codigo</string>
+    <string name="detalle_codigo_contestacion">Contestacion codigo</string>
+    <string name="todos">Todos</string>
+    <string name="vistos">Vistos</string>
+    <string name="ajustes_tool">AJUSTES</string>
+    <string name="acerca_tool">ACERCA DE</string>
+    <string name="detalles_tool">DETALLES</string>
+    <string name="estadisticas_tool">ESTADISTICAS</string>
+    <string name="lista_tool">LISTA EPISODIOS (API)</string>
+    <string name="lista_tool_firestore">EPISODIOS VISTOS (FIRESTORE)</string>
+    <string name="episodio1">Episodio 1 (API)</string>
+    <string name="detalles_epi">temporada 1 (API)</string>
+    <string name="total_episodios">Total Episodios</string>
+    <string name="episodios_vistos">Episodios Vistos</string>
+    <string name="completado">0 % Completado</string>
+    <string name="Estadisticas">Estadisticas</string>
+    <string name="lista_personajes">LISTA DE PERSONAJES</string>
+</resources>
+

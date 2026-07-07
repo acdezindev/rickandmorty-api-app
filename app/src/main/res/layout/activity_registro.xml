@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainregistro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/rickmorty"
+        android:layout_gravity="center"
+        />
+
+
+    <!-- Primer Card: Nombre-->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp"
+        >
+
+        <EditText
+            android:id="@+id/et_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/rick"
+            android:paddingLeft="15dp"
+            android:hint="@string/reg_nombre"
+            android:textColorHint="@color/white"
+            android:textSize="25sp"
+
+            />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <!-- Segundo Card: Email -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_email"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp">
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/morty"
+            android:hint="@string/reg_email"
+            android:textColorHint="@color/white"
+            android:paddingLeft="15dp"
+            android:textSize="25sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Terceer Card: Contrasena -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_pass"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="4dp">
+
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/rick"
+            android:hint="@string/reg_contrasena"
+            android:textColorHint="@color/white"
+            android:paddingLeft="15dp"
+            android:inputType="textPassword"
+            android:textSize="25sp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <!--  4 Card: registrarse -->
+
+    <Button
+        android:id="@+id/btn_registrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/boton_registrarse"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/neon"
+        />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/rymfluor"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_volver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="1dp"
+        android:text="@string/boton_volver"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        />
+
+
+
+</LinearLayout>

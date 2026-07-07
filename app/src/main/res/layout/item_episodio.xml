@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardBackgroundColor="@color/morty"
+    app:cardCornerRadius="1dp"
+    android:padding="3dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="horizontal"
+    android:background="@color/black"
+    android:padding="12dp">
+
+    <!-- Indicador de visto (CheckBox mejor que RadioButton) -->
+    <CheckBox
+        android:id="@+id/checkVisto"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:buttonTint="@color/morty"
+        android:layout_gravity="center_vertical"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+    <!-- Separador vertical -->
+    <View
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/morty" />
+
+    <!-- Contenedor de texto -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+
+
+        <!-- Fila para codigo y la fecha -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal">
+
+            <!-- Codigo del episodio -->
+            <TextView
+                android:id="@+id/tvCodigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S01E01"
+                android:textSize="18sp"
+                android:textColor="@color/morty"
+                android:paddingHorizontal="6dp"
+                android:paddingVertical="2dp"
+                android:textStyle="bold" />
+            <!-- Separador  vertical-->
+            <View
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="2dp"
+                android:background="@color/morty" />
+            <!-- Fecha -->
+            <TextView
+                android:id="@+id/tvFecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="December 2, 2013"
+                android:textSize="18sp"
+                android:textColor="@color/morty"
+                android:layout_marginStart="12dp"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

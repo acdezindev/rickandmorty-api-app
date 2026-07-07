@@ -22,6 +22,10 @@ con autenticación de usuarios, almacenamiento en la nube y estadísticas de vis
 
 ## 🎥 Demostración en video
 
+<video src="Images/app.mp4" controls width="100%"></video>
+
+*Demostración de las funcionalidades principales de la aplicación*
+📹 [Descargar](Images/video.webm) *(si no se reproduce)*
 ---
 ## ✨ Características principales
 

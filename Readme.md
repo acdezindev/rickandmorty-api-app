@@ -19,14 +19,18 @@ con autenticación de usuarios, almacenamiento en la nube y estadísticas de vis
 |:-------------------------:|:----------------------------:|:----------------------------:|:-------------------------------:|
 | ![Menú](Images/img_4.png) | ![Ajustes](Images/img_6.png) | ![Ajustes](Images/img_2.png) | ![Personajes](Images/img_8.png) |
 
-
-## 🎥 Demostración en video
-
-<video src="Images/app.mp4" controls width="100%"></video>
-
-*Demostración de las funcionalidades principales de la aplicación*
-📹 [Descargar](Images/video.webm) *(si no se reproduce)*
 ---
+
+## 🎬 Demostración en video
+
+<video src="Images/app.mp4" autoplay loop muted playsinline width="100%"></video>
+
+*Demostración del funcionamiento de la aplicación*
+
+📹 [Descargar video](Images/app.mp4) *(si no se reproduce)*
+
+---
+
 ## ✨ Características principales
 
 ### 🔐 Autenticación
@@ -50,10 +54,6 @@ con autenticación de usuarios, almacenamiento en la nube y estadísticas de vis
 - **Modo oscuro / claro** con persistencia en SharedPreferences
 - Cierre de sesión
 
-### 📱 Navegación
-- Menú lateral (Navigation Drawer)
-- Navegación fluida entre fragmentos
-
 ---
 
 ## 🛠️ Tecnologías utilizadas
@@ -72,16 +72,33 @@ con autenticación de usuarios, almacenamiento en la nube y estadísticas de vis
 
 ---
 
+## 📚 Sobre el proyecto
 
-## Instalación
+Este proyecto fue desarrollado como parte de mi formación en desarrollo Android.  
+Demuestra mis habilidades en:
+
+- **Consumo de APIs**: Uso de **Retrofit** para consumir la API de Rick and Morty
+- **Autenticación**: Implementación de **Firebase Authentication** con email/contraseña
+- **Persistencia en la nube**: Uso de **Firestore** para guardar datos de usuario
+- **Almacenamiento local**: **SharedPreferences** para preferencias de idioma y tema
+- **Arquitectura**: Organización en capas siguiendo principios **MVVM**
+- **UX/UI**: Material Design, temas claro/oscuro y soporte multidioma
+
+---
+
+## 🚀 Instalación
 
 1. Clona el repositorio
 2. Abre el proyecto en Android Studio
 3. Sincroniza Gradle y ejecuta la app
 
 ---
-##  Autor
 
-**Abraham C.**  
+
+## 👨‍💻 Autor
+
+**Abraham C**  
 [GitHub](https://github.com/acdezindev) | [LinkedIn](https://www.linkedin.com/in/AbrahamCdev)
+
+
 

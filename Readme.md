@@ -23,8 +23,7 @@ con autenticación de usuarios, almacenamiento en la nube y estadísticas de vis
 
 ## 🎬 Demostración en video
 
-<video src="Images/app.mp4" autoplay loop muted playsinline width="100%"></video>
-
+<video src="Images/video.webm" controls width="100%" poster="Images/thumbnail.png"></video>
 *Demostración del funcionamiento de la aplicación*
 
 📹 [Descargar video](Images/app.mp4) *(si no se reproduce)*

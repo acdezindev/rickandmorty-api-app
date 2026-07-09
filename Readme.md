@@ -2,7 +2,8 @@
 
 Aplicación Android que permite visualizar y gestionar los episodios de Rick and Morty,
 con autenticación de usuarios, almacenamiento en la nube y estadísticas de visualización.
-> Desarrollada en Kotlin como proyecto de portafolio.  
+
+> Desarrollada en Kotlin como tarea del grado de Programación Multimedia Dispositivos Moviles.
 > Implementa consumo de API REST, autenticación Firebase y gestión de episodios vistos.
 
 ---
@@ -11,7 +12,7 @@ con autenticación de usuarios, almacenamiento en la nube y estadísticas de vis
 
 ### Tema Claro
 
-|      Pantalla Login      |       Pantalla Registro     |        Lista Episodios         |  Detalle Episodio    | 
+|      Pantalla Login      |       Pantalla Registro     |         Lista Episodio         |  Detalle Episodio    | 
 |:------------------------:|:--:|:------------------------------:|:---:
 | ![Login](Images/img.png) | ![Registro](Images/img_1.png)  | ![Episodios](Images/img_3.png) | ![Detalle](Images/img_12.png)  | 
 
@@ -25,7 +26,7 @@ con autenticación de usuarios, almacenamiento en la nube y estadísticas de vis
 
 *Demostración del funcionamiento de la aplicación*
 
-📹 [Descargar video](Images/app.mp4) *(si no se reproduce)*
+📹 [Descargar video](Images/app.mp4)
 
 ---
 
@@ -82,6 +83,18 @@ Demuestra mis habilidades en:
 - **Arquitectura**: Organización en capas siguiendo principios **MVVM**
 - **UX/UI**: Material Design, temas claro/oscuro y soporte multidioma
 
+
+### 🎯 ¿Qué he aprendido?
+
+- ✅ Consumir APIs REST con Retrofit
+- ✅ Implementar autenticación con Firebase Authentication
+- ✅ Gestionar bases de datos en la nube con Firestore
+- ✅ Persistir preferencias locales con SharedPreferences
+- ✅ Crear interfaces dinámicas con RecyclerView
+- ✅ Manejar navegación con Navigation Component
+- ✅ Implementar modo oscuro y cambio de idioma
+- ✅ Organizar código siguiendo principios MVVM
+- ✅ Gestionar estado de UI con LiveData
 ---
 
 ## 🚀 Instalación
@@ -99,4 +112,9 @@ Demuestra mis habilidades en:
 [GitHub](https://github.com/acdezindev) | [LinkedIn](https://www.linkedin.com/in/AbrahamCdev)
 
 
+## 📊 Estado de la tarea de formacion académica
 
+![Estado](https://img.shields.io/badge/ESTADO-FINALIZADO-brightgreen)
+![Versión](https://img.shields.io/badge/Versión-1.0.0-blue)
+![Android](https://img.shields.io/badge/Android-API%2024%2B-green)
+![Kotlin](https://img.shields.io/badge/Kotlin-2.0.21-purple)
